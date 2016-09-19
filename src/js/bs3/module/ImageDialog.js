@@ -20,7 +20,7 @@ define([
         imageLimitation = '<small>' + lang.image.maximumFileSize + ' : ' + readableSize + '</small>';
       }
 
-      var body = '<div class="form-group note-group-select-from-files">' +
+      var body = '<div style="display:none;" class="form-group note-group-select-from-files">' +
                    '<label>' + lang.image.selectFromFiles + '</label>' +
                    '<input class="note-image-input form-control" type="file" name="files" accept="image/*" multiple="multiple" />' +
                    imageLimitation +
